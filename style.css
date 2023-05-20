@@ -38,13 +38,13 @@
     position: fixed;
     font-size: 22px;
     top: -10px;
-    left: 140px;
+    left: 130px;
     z-index: 2;
 
 }
 .title{
     position: relative;
-    top: 50px;
+    top: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .book{
