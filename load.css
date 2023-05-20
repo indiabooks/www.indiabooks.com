@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+.navbar {
+    /* background: rgba(0, 0, 0, 0.321) url('img/nav.gif'); */
+    background-color: rgb(29, 29, 27);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 1;
+    height: 15px;
+    
+}
+.burger {
+    position: fixed;
+    top: 4px;
+    right: 35px;
+    z-index: 2;
+}
+.line {
+    background-color: white;
+    border-radius: 100px;
+    width: 27px;
+    margin: 5px 3px;
+    padding: 3px;
+    box-shadow: 0px 0px 5px rgb(4, 4, 4);
+}
+.heading{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(252, 249, 249);
+    position: fixed;
+    font-size: 22px;
+    top: -10px;
+    left: 130px;
+    z-index: 2;
+
+}
+.title{
+    position: relative;
+    top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.book{
+    position: relative;
+    width: 300px;
+    top:30px;
+    left: 30px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+.price{
+    position: relative;
+    width: 300px;
+    top:15px;
+    left: 70px;
+    font-size: 25px;
+}
+.buy{
+   position: relative;
+   left: 20px;
+   width:150px;
+   height: 40px;
+   background-color: rgba(239, 164, 60, 0.627);
+   font-size: large;
+   border-radius: 15px;
+}
+.buy:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.break{
+    background-color: rgba(0, 0, 0, 0.496);
+    height: 1px;
+    width: 95vw;
+}
+.details{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.pdf{
+    position: absolute;
+    left:250px;
+    width: 100px;
+}
+.review{
+    width: 380px;
+}
+.desc{
+    font-family: monospace;
+}
+img{
+    width: 70px;
+    position: relative;
+    top: 100px;
+    left:35vw;
+}
+.txt{
+    color: white;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.upi{
+    top: 150px;
+    width: 360px;
+    position:relative ;
+    left: 0px;
+}
