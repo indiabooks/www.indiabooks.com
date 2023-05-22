@@ -1,5 +1,7 @@
 body{
-    background-color: rgba(0, 0, 0, 0.507);
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-size:900px;
 }
 .navbar {
     /* background: rgba(0, 0, 0, 0.321) url('img/nav.gif'); */
