@@ -1,10 +1,10 @@
 body{
-    background-image: url(bg.gif);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size:900px;
 }
 .navbar {
-    /* background: rgba(0, 0, 0, 0.321) url('img/nav.gif'); */
+    position: fixed;
     background-color: rgb(29, 29, 27);
     background-size: cover;
     background-position: center;
@@ -47,34 +47,53 @@ body{
     z-index: 2;
 }
 .lbl{
+    background-color: rgba(0, 0, 0, 0.266);
+    color:white;
     position: relative;
     top: 20px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-size: 30px;
+    
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    
 }
 .frm{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 .inp{
-    width: 250px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    width: 360px;
     height: 30px;
     border-radius: 5px;
     font-size: 15px;
+    display: flex;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    
 }
 .msg{
     font-size: 15px;
     color: red;
     position: relative;
-    left: 30px;
+    background-color: white;
 }
 .btn{
     position: relative;
     left: 20px;
     width:250px;
     height: 40px;
-    background-color: rgba(83, 255, 74, 0.627);
+    background-color: rgba(45, 252, 255, 0.627);
     font-size: large;
     border-radius: 15px;
  }
+ .break{
+    background-color: rgba(0, 0, 0, 0.496);
+    height: 1px;
+    width: 95vw;
+}
