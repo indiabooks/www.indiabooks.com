@@ -86,8 +86,9 @@
 }
 .pdf{
     position: absolute;
-    left:250px;
     width: 100px;
+    right: 0px;
+    
 }
 .review{
     width: 380px;
