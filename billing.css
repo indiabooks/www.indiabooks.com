@@ -90,12 +90,11 @@ body{
  }
  .button{
     position: fixed;
-    top:620px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.645);
     left: 0px;
     right: 0px;
-    bottom: 0px;
+    bottom:0px;
     padding: 5px 5px 5px 5px;
     backdrop-filter: blur(5px);
  }
